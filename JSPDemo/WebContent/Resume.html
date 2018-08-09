@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="Controller" method="get">
+<table>
+	<tr>
+	<td>First Name : </td>
+	<td><input type="text" id="fname" name="fname" required></td>
+	</tr>
+	<tr>
+	<td>Last Name : </td>
+	<td><input type="text" id="lname" name="lname" required></td>
+	</tr>
+	<tr>
+	<td>Date of Birth : </td>
+	<td><input type="date" id="dob" name="dob" required></td>
+	</tr>
+	<tr>
+	<td>Gender : </td>
+	<td><input type="radio" name="gender" value="Male" required>Male</td>
+	<td><input type="radio" name="gender" value="Female">Female</td>
+	</tr>
+	<tr>
+	<td>Address : </td>
+	<td><textarea rows=4 cols=20 name="address" required>
+	Enter Your Address
+	</textarea></td>
+	<tr>
+	<td>Contact Number : </td>
+	<td><input type="number" name="contact" id="contact" required></td>
+	</tr>
+	<tr>
+	<td>E-Mail : </td>
+	<td><input type="email" name="email" id="email" required></td>
+	</tr>
+	<tr>
+	<td>Hobbies : </td>
+	<td><input type="checkbox" name="hobbies" value="singing" required>Singing</td>
+	<td><input type="checkbox" name="hobbies" value="dancing">Dancing</td>
+	<td><input type="checkbox" name="hobbies" value="painting">Painting</td>
+	<td><input type="checkbox" name="hobbies" value="cooking">Cooking</td>
+	</tr>
+	<tr>
+	<td>Highest Qualification : </td>
+	<td><select required name="hq">	
+	<option value="twelve">12th Pass</option>
+	<option value="Graduation">Graduation</option>
+	<option value="Post-Graduation">Post-Graduation</option>
+	</select></td>
+	</tr>
+	<tr>
+	<td>Skills : </td>
+	<td><input type="checkbox" name="skill" value="C" required>C</td>
+	<td><input type="checkbox" name="skill" value="C++">C++</td>
+	<td><input type="checkbox" name="skill" value="Java">Java</td>
+	<td><input type="checkbox" name="skill" value=".net">Dot Net</td>
+	</tr>
+	<tr>
+	<td>Website : </td>
+	<td><input type="url" name="website" id="website"></td>
+	</tr>
+	<tr>
+	<td>Summary : </td>
+	<td><textarea rows=4 cols=20 name="summary" required>
+	Enter Your Summary
+	</textarea></td>
+	</tr>
+	<tr>
+	<td><input type="file" id="pic" name="pic"></td>
+	</tr>
+	<tr>
+	<td><input type="reset" id="reset" name="reset" value="Clear" required></td>
+	<td><input type="submit" id="submit" name="submit" value="Submit" required></td>
+	</tr>
+	
+</table>
+</form>
+
+</body>
+</html>
